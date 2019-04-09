@@ -1,0 +1,23 @@
+version: "2"
+
+services:
+  static:
+    image: spring-boot-samples-web-static
+    container_name: spring-boot-samples-web-static
+    build: ./static
+    ports:
+      - 5555:5555
+
+  ui:
+    image: spring-boot-samples-web-ui
+    container_name: spring-boot-samples-web-ui
+    build: ./ui
+    ports:
+      - 6666:6666
+
+  proxy:
+    image: haproxy
+    ports:
+      - 9000:9000
+    volumes:
+      - "./haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg"
