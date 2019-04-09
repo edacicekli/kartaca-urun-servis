@@ -12,8 +12,8 @@ $ docker-compose up
 
 
 ## Routes
-- https://localhost:9000
-- https://localhost:9000/ui
+- http://localhost:9000
+- http://localhost:9000/ui
 
 
 ## Samples
