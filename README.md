@@ -2,7 +2,7 @@
 
 ### How To Run It
 
-**Kartaca Ürün ve Servis Geliştirme requires [Docker](https://www.docker.com/) to run.**
+**Kartaca Ürün ve Servis Yönetimi requires [Docker](https://www.docker.com/) to run.**
 
 ```
 $ git clone https://github.com/edacicekli/kartaca-urun-servis
